@@ -8,6 +8,7 @@ const plugins = [];
 const pathRoot = p => path.resolve(p)
 
 const { UNI_PLATFORM, npm_lifecycle_event, UNI_SCRIPT, UNI_OUTPUT_DIR } = process.env
+console.log(process.env);
 if (UNI_PLATFORM === 'mp-weixin') {
   // dev / build
   const [mode] = npm_lifecycle_event.split(':')

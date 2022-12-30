@@ -3,7 +3,8 @@
     "avatar": "plugin/components/avatar/avatar"
   },
   "pages": {
-    "hello": "plugin/pages/hello"
+    "hello": "plugin/pages/hello",
+    "pay": "plugin/pages/pay"
   },
   "main": "plugin/index.js"
 }

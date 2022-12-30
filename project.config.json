@@ -2,7 +2,7 @@
   "miniprogramRoot": "miniprogram/",
   "pluginRoot": "plugin/",
   "compileType": "plugin",
-  "appid": "wxe656a5b9f98c1811",
+  "appid": "wx1d6feb8b7a528465",
   "projectname": "wx-mp-plugin",
   "description": "微信小程序插件",
   "setting": {

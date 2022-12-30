@@ -6,6 +6,7 @@
 		</view>
 
 		<button @click="navigateToPlugin">点击跳转插件页</button>
+		<button @click="navigateToPluginPay">跳转插件支付页</button>
 
     <TestSync :visible.sync="test" />
 
@@ -33,6 +34,11 @@ export default {
 		navigateToPlugin() {
 			uni.navigateTo({
 				url: "plugin://myPlugin/hello",
+			});
+		},
+		navigateToPluginPay() {
+			uni.navigateTo({
+				url: `plugin://myPlugin/pay?orderSn=299033`,
 			});
 		},
 		aaa() {
